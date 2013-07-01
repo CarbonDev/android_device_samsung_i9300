@@ -18,9 +18,6 @@
 # name
 PRODUCT_RELEASE_NAME := i9300
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_i9300
-
 # device
 $(call inherit-product-if-exists, device/samsung/i9300/full_i9300.mk)
 
