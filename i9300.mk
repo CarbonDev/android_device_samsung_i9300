@@ -76,9 +76,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=SamsungExynos4RIL \
     mobiledata.interfaces=pdp0,wlan0,gprs,ppp0 \
-    ro.ril.hsxpa=1 \
-    ro.ril.gprsclass=10 \
-    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
     ro.telephony.call_ring.multiple=false \
     ro.telephony.call_ring.delay=3000
 
