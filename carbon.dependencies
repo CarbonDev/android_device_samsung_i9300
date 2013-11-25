@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "omnirom/android_kernel_samsung_smdk4412",
+    "target_path": "kernel/samsung/smdk4412",
+    "revision": "android-4.4"
+  },
+  {
+    "repository": "CarbonDev/android_device_samsung_smdk4412-common",
+    "target_path": "device/samsung/smdk4412-common",
+  }
+]
