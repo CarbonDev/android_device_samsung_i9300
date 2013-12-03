@@ -1,11 +1,20 @@
 [
   {
-    "repository": "omnirom/android_kernel_samsung_smdk4412",
+    "remote": "cm",
+    "repository": "CyanogenMod/android_kernel_samsung_smdk4412",
     "target_path": "kernel/samsung/smdk4412",
-    "revision": "android-4.4"
+    "revision": "cm-11.0"
   },
   {
+    "remote": "cr",
     "repository": "CarbonDev/android_device_samsung_smdk4412-common",
     "target_path": "device/samsung/smdk4412-common",
+    "revision": "kk"
+  },
+  {
+    "remote": "cr",
+    "repository": "CarbonDev/android_device_samsung_i9300",
+    "target_path": "device/samsung/i9300",
+    "revision": "kk"
   }
 ]
