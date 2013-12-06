@@ -1,9 +1,8 @@
 [
   {
-    "remote": "cm",
-    "repository": "CyanogenMod/android_kernel_samsung_smdk4412",
+    "repository": "omnirom/android_kernel_samsung_smdk4412",
     "target_path": "kernel/samsung/smdk4412",
-    "revision": "cm-11.0"
+    "revision": "android-4.4"
   },
   {
     "remote": "cr",
