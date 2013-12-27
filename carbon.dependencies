@@ -10,6 +10,12 @@
     "target_path": "device/samsung/smdk4412-common"
   },
   {
+    "remote": "gh",
+    "repository": "SlimRoms/android_prebuilt",
+    "target_path": "prebuilt",
+    "revision": "kk4.4"
+  },
+  {
     "repository": "CarbonDev/proprietary_vendor_samsung",
     "target_path": "vendor/samsung"
   }
