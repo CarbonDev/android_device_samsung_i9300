@@ -57,6 +57,7 @@ TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
 
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
 
+# Camera wrapper
 TARGET_PROVIDES_CAMERA_HAL := true
 
 # inherit from the proprietary version

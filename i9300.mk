@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/tiny_hw.xml:system/etc/sound/m0
 
+# Camera Wrapper
+PRODUCT_PACKAGES += \
+    camera.exynos4
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.smdk4x12
@@ -60,10 +64,6 @@ PRODUCT_PACKAGES += \
     libnfc_jni \
     Nfc \
     Tag
-
-# Camera Wrapper
-PRODUCT_PACKAGES += \
-    camera.exynos4
 
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
