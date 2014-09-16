@@ -16,7 +16,9 @@
     "revision": "kk4.4"
   },
   {
+    "remote": "gh",
     "repository": "TheThunderbirds/proprietary_vendor_samsung",
-    "target_path": "vendor/samsung"
+    "target_path": "vendor/samsung",
+    "revision": "kk"
   }
 ]
